@@ -1,0 +1,127 @@
+.desktop-1,
+.desktop-1 * {
+  box-sizing: border-box;
+}
+.desktop-1 {
+  background: #eeeeee;
+  width: 1600px;
+  height: 900px;
+  position: relative;
+  overflow: hidden;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-1 {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 355px;
+  height: 466px;
+  position: absolute;
+  left: 612px;
+  top: 217px;
+  box-shadow: 9px 12px 11px 0px rgba(0, 0, 0, 0.25);
+}
+.toko-indah-kayla {
+  color: #000000;
+  text-align: left;
+  font: 400 24px "Istok Web", sans-serif;
+  position: absolute;
+  left: 676px;
+  top: 336px;
+}
+.tombol {
+  width: 158px;
+  height: 41px;
+  position: static;
+}
+.rectangle-3 {
+  background: #3a3a3a;
+  border-radius: 20px;
+  width: 158px;
+  height: 41px;
+  position: absolute;
+  left: 711px;
+  top: 593px;
+  box-shadow: 9px 12px 11px 0px rgba(0, 0, 0, 0.25);
+}
+.login {
+  color: #ffffff;
+  text-align: left;
+  font: 700 15px "Istok Web", sans-serif;
+  position: absolute;
+  left: 763px;
+  top: 602px;
+  width: 54px;
+  height: 24px;
+}
+.tengah {
+  width: 222px;
+  height: 103px;
+  position: static;
+}
+.line-1 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 222px;
+  height: 0px;
+  position: absolute;
+  left: 679px;
+  top: 454px;
+}
+.line-2 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 222px;
+  height: 0px;
+  position: absolute;
+  left: 679px;
+  top: 524px;
+}
+.username {
+  color: #747474;
+  text-align: left;
+  font: 400 16px "Istok Web", sans-serif;
+  position: absolute;
+  left: 752px;
+  top: 421px;
+  width: 72px;
+  height: 24px;
+}
+.password {
+  color: #747474;
+  text-align: left;
+  font: 400 16px "Istok Web", sans-serif;
+  position: absolute;
+  left: 754px;
+  top: 492px;
+  width: 69px;
+  height: 23px;
+}
+.icon-user {
+  width: 17.74px;
+  height: 20px;
+  position: static;
+}
+.group {
+  position: absolute;
+  left: 688px;
+  top: 421px;
+  overflow: visible;
+}
+.icon-lock-locked {
+  position: absolute;
+  left: 689px;
+  top: 492px;
+  overflow: visible;
+}
+.ikon-toko-1 {
+  width: 70px;
+  height: 99px;
+  position: absolute;
+  left: 755px;
+  top: 244px;
+}
