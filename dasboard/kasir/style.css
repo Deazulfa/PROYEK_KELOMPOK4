@@ -1,0 +1,578 @@
+.kasir,
+.kasir * {
+  box-sizing: border-box;
+}
+.kasir {
+  background: #eeeeee;
+  width: 1600px;
+  height: 900px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-4 {
+  background: #3a3a3a;
+  border-radius: 30px;
+  width: 153px;
+  height: 717px;
+  position: absolute;
+  left: 36px;
+  top: 137px;
+}
+.minggu-24-september-2023 {
+  color: #000000;
+  text-align: left;
+  font: 400 34px "Istok Web", sans-serif;
+  position: absolute;
+  left: 266px;
+  top: 48px;
+}
+._16-54-23 {
+  color: #000000;
+  text-align: left;
+  font: 400 34px "Jost", sans-serif;
+  position: absolute;
+  left: 700px;
+  top: 45px;
+}
+.toko-indah-kayla {
+  color: #000000;
+  text-align: left;
+  font: 400 15px "Istok Web", sans-serif;
+  position: absolute;
+  left: 39px;
+  top: 97px;
+  width: 148px;
+  height: 24px;
+}
+.ikon-toko-2 {
+  width: 44px;
+  height: 60px;
+  position: absolute;
+  left: 85px;
+  top: 36px;
+}
+.menu {
+  position: absolute;
+  inset: 0;
+}
+.dashboard {
+  width: 115px;
+  height: 26px;
+  position: static;
+}
+.dashboard2 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 18px "Istok Web", sans-serif;
+  position: absolute;
+  left: 85px;
+  top: 217px;
+}
+.icon-dashboard {
+  position: absolute;
+  left: 56px;
+  top: 220px;
+  overflow: visible;
+}
+.group-2 {
+  width: 95px;
+  height: 26px;
+  position: static;
+}
+.kategori {
+  color: #ffffff;
+  text-align: left;
+  font: 400 18px "Istok Web", sans-serif;
+  position: absolute;
+  left: 85px;
+  top: 319px;
+}
+.icon-menu {
+  width: 15.86px;
+  height: 17px;
+  position: static;
+}
+.group {
+  position: absolute;
+  left: 58px;
+  top: 323px;
+  overflow: visible;
+}
+.icon-dashboard2 {
+  width: 86px;
+  height: 26px;
+  position: static;
+}
+.group-3 {
+  width: 86px;
+  height: 26px;
+  position: static;
+}
+.produk {
+  color: #ffffff;
+  text-align: left;
+  font: 400 18px "Istok Web", sans-serif;
+  position: absolute;
+  left: 87px;
+  top: 372px;
+}
+.icon-cart {
+  position: absolute;
+  left: 58px;
+  top: 376px;
+  overflow: visible;
+}
+.group-5 {
+  width: 94px;
+  height: 26px;
+  position: static;
+}
+.laporan {
+  color: #ffffff;
+  text-align: left;
+  font: 400 18px "Istok Web", sans-serif;
+  position: absolute;
+  left: 87px;
+  top: 423px;
+}
+.icon-account-login {
+  position: absolute;
+  left: 58px;
+  top: 428px;
+  overflow: visible;
+}
+.group-6 {
+  width: 68px;
+  height: 26px;
+  position: static;
+}
+.kasir2 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 18px "Istok Web", sans-serif;
+  position: absolute;
+  left: 85px;
+  top: 268px;
+}
+.icon-monitor {
+  position: absolute;
+  left: 57px;
+  top: 272px;
+  overflow: visible;
+}
+.profile {
+  position: absolute;
+  inset: 0;
+}
+.ellipse-1 {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1506px;
+  top: 49px;
+}
+.icon-arrow-down-1 {
+  position: absolute;
+  left: 1556.16px;
+  top: 65.48px;
+  overflow: visible;
+}
+.line-3 {
+  border-style: solid;
+  border-color: #43d849;
+  border-width: 7px 0 0 0;
+  width: 35px;
+  height: 0px;
+  position: absolute;
+  left: 36px;
+  top: 261px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.group-7 {
+  position: absolute;
+  inset: 0;
+}
+.kasir3 {
+  color: #000000;
+  text-align: left;
+  font: 400 44px/126.45% "Istok Web", sans-serif;
+  position: absolute;
+  left: 223px;
+  top: 137px;
+}
+.table {
+  position: absolute;
+  inset: 0;
+}
+.line-5 {
+  border-style: solid;
+  border-color: #636363;
+  border-width: 2px 0 0 0;
+  width: 203px;
+  height: 0px;
+  position: absolute;
+  left: 353px;
+  top: 435px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.line-9 {
+  border-style: solid;
+  border-color: #636363;
+  border-width: 2px 0 0 0;
+  width: 203px;
+  height: 0px;
+  position: absolute;
+  left: 765.96px;
+  top: 435px;
+  transform-origin: 0 0;
+  transform: rotate(90.271deg) scale(1, 1);
+}
+.line-13 {
+  border-style: solid;
+  border-color: #636363;
+  border-width: 2px 0 0 0;
+  width: 203px;
+  height: 0px;
+  position: absolute;
+  left: 1009.96px;
+  top: 435px;
+  transform-origin: 0 0;
+  transform: rotate(89.706deg) scale(1, 1);
+}
+.line-12 {
+  border-style: solid;
+  border-color: #636363;
+  border-width: 2px 0 0 0;
+  width: 203px;
+  height: 0px;
+  position: absolute;
+  left: 1126.96px;
+  top: 435px;
+  transform-origin: 0 0;
+  transform: rotate(89.988deg) scale(1, 1);
+}
+.line-14 {
+  border-style: solid;
+  border-color: #636363;
+  border-width: 2px 0 0 0;
+  width: 203.01px;
+  height: 0px;
+  position: absolute;
+  left: 1333.96px;
+  top: 435px;
+  transform-origin: 0 0;
+  transform: rotate(90.553deg) scale(1, 1);
+}
+.line-10 {
+  border-style: solid;
+  border-color: #636363;
+  border-width: 2px 0 0 0;
+  width: 1324px;
+  height: 0px;
+  position: absolute;
+  left: 222px;
+  top: 488px;
+}
+.rectangle-11 {
+  background: rgba(58, 58, 58, 0.15);
+  width: 1324px;
+  height: 54px;
+  position: absolute;
+  left: 222px;
+  top: 435px;
+}
+.kode {
+  color: #2b2b2b;
+  text-align: left;
+  font: 400 22px "Istok Web", sans-serif;
+  position: absolute;
+  left: 254px;
+  top: 445px;
+}
+.nama-produk-barang {
+  color: #2b2b2b;
+  text-align: left;
+  font: 400 22px "Istok Web", sans-serif;
+  position: absolute;
+  left: 423px;
+  top: 445px;
+}
+.total {
+  color: #2b2b2b;
+  text-align: left;
+  font: 400 22px "Istok Web", sans-serif;
+  position: absolute;
+  left: 1195px;
+  top: 445px;
+}
+.aksi {
+  color: #2b2b2b;
+  text-align: left;
+  font: 400 22px "Istok Web", sans-serif;
+  position: absolute;
+  left: 1417px;
+  top: 445px;
+}
+.harga {
+  color: #2b2b2b;
+  text-align: left;
+  font: 400 22px "Istok Web", sans-serif;
+  position: absolute;
+  left: 850px;
+  top: 445px;
+}
+.qty {
+  color: #2b2b2b;
+  text-align: left;
+  font: 400 22px "Istok Web", sans-serif;
+  position: absolute;
+  left: 1050px;
+  top: 446px;
+}
+.rectangle-31 {
+  background: #3a3a3a;
+  border-radius: 18px;
+  width: 132px;
+  height: 39px;
+  position: absolute;
+  left: 1086px;
+  top: 663px;
+}
+.bayar {
+  color: #ffffff;
+  text-align: left;
+  font: 700 22px "Istok Web", sans-serif;
+  position: absolute;
+  left: 1116px;
+  top: 667px;
+}
+.rectangle-15 {
+  background: #d9d9d9;
+  width: 391px;
+  height: 172px;
+  position: absolute;
+  left: 222px;
+  top: 217px;
+}
+.tanggal {
+  color: #000000;
+  text-align: left;
+  font: 400 18px "Istok Web", sans-serif;
+  position: absolute;
+  left: 244px;
+  top: 240px;
+}
+.kasir4 {
+  color: #000000;
+  text-align: left;
+  font: 400 18px "Istok Web", sans-serif;
+  position: absolute;
+  left: 244px;
+  top: 290px;
+}
+.costumer {
+  color: #000000;
+  text-align: left;
+  font: 400 18px "Istok Web", sans-serif;
+  position: absolute;
+  left: 244px;
+  top: 340px;
+}
+.rectangle-20 {
+  background: #ffffff;
+  border-radius: 18px;
+  width: 247px;
+  height: 32px;
+  position: absolute;
+  left: 353px;
+  top: 238px;
+}
+.rectangle-21 {
+  background: #ffffff;
+  border-radius: 18px;
+  width: 247px;
+  height: 32px;
+  position: absolute;
+  left: 353px;
+  top: 287px;
+}
+.rectangle-22 {
+  background: #ffffff;
+  border-radius: 18px;
+  width: 247px;
+  height: 32px;
+  position: absolute;
+  left: 353px;
+  top: 336px;
+}
+.rectangle-18 {
+  background: #d9d9d9;
+  width: 391px;
+  height: 192px;
+  position: absolute;
+  left: 222px;
+  top: 662px;
+}
+.sub-total {
+  color: #000000;
+  text-align: left;
+  font: 400 18px "Istok Web", sans-serif;
+  position: absolute;
+  left: 240px;
+  top: 695px;
+}
+.discount {
+  color: #000000;
+  text-align: left;
+  font: 400 18px "Istok Web", sans-serif;
+  position: absolute;
+  left: 240px;
+  top: 745px;
+}
+.grand-total {
+  color: #000000;
+  text-align: left;
+  font: 400 18px "Istok Web", sans-serif;
+  position: absolute;
+  left: 240px;
+  top: 795px;
+}
+.rectangle-26 {
+  background: #ffffff;
+  border-radius: 18px;
+  width: 247px;
+  height: 32px;
+  position: absolute;
+  left: 349px;
+  top: 693px;
+}
+.rectangle-27 {
+  background: #ffffff;
+  border-radius: 18px;
+  width: 247px;
+  height: 32px;
+  position: absolute;
+  left: 349px;
+  top: 742px;
+}
+.rectangle-28 {
+  background: #ffffff;
+  border-radius: 18px;
+  width: 247px;
+  height: 32px;
+  position: absolute;
+  left: 349px;
+  top: 791px;
+}
+.rectangle-19 {
+  background: #d9d9d9;
+  width: 391px;
+  height: 116px;
+  position: absolute;
+  left: 646px;
+  top: 662px;
+}
+.cash {
+  color: #000000;
+  text-align: left;
+  font: 400 18px "Istok Web", sans-serif;
+  position: absolute;
+  left: 662px;
+  top: 681px;
+}
+.change {
+  color: #000000;
+  text-align: left;
+  font: 400 18px "Istok Web", sans-serif;
+  position: absolute;
+  left: 662px;
+  top: 731px;
+}
+.rectangle-29 {
+  background: #ffffff;
+  border-radius: 18px;
+  width: 247px;
+  height: 32px;
+  position: absolute;
+  left: 771px;
+  top: 679px;
+}
+.rectangle-30 {
+  background: #ffffff;
+  border-radius: 18px;
+  width: 247px;
+  height: 32px;
+  position: absolute;
+  left: 771px;
+  top: 728px;
+}
+.rectangle-16 {
+  background: #d9d9d9;
+  width: 404px;
+  height: 123px;
+  position: absolute;
+  left: 646px;
+  top: 217px;
+}
+.kode2 {
+  color: #000000;
+  text-align: left;
+  font: 400 18px "Istok Web", sans-serif;
+  position: absolute;
+  left: 664px;
+  top: 237px;
+}
+.qty2 {
+  color: #000000;
+  text-align: left;
+  font: 400 18px "Istok Web", sans-serif;
+  position: absolute;
+  left: 664px;
+  top: 287px;
+}
+.rectangle-23 {
+  background: #ffffff;
+  border-radius: 18px;
+  width: 247px;
+  height: 32px;
+  position: absolute;
+  left: 739px;
+  top: 235px;
+}
+.rectangle-25 {
+  background: #3a3a3a;
+  border-radius: 18px;
+  width: 39px;
+  height: 32px;
+  position: absolute;
+  left: 998px;
+  top: 235px;
+}
+.rectangle-24 {
+  background: #ffffff;
+  border-radius: 18px;
+  width: 247px;
+  height: 32px;
+  position: absolute;
+  left: 739px;
+  top: 284px;
+}
+.rectangle-17 {
+  background: #d9d9d9;
+  width: 476px;
+  height: 172px;
+  position: absolute;
+  left: 1070px;
+  top: 217px;
+}
+._30-000 {
+  color: #000000;
+  text-align: left;
+  font: 400 64px "Istok Web", sans-serif;
+  position: absolute;
+  left: 1320px;
+  top: 288px;
+}
