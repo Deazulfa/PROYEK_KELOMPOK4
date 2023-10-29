@@ -1,0 +1,820 @@
+.alarm,
+.alarm * {
+  box-sizing: border-box;
+}
+.head{
+  
+  /* Aturan umum */
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  /* Mengatur lebar maksimal konten */
+  .alarm {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  /* Mengatur lebar gambar agar tidak terlalu besar */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Menyusun elemen menu ke dalam daftar vertikal */
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dashboard,
+  .group-2,
+  .icon-dashboard2,
+  .group-3,
+  .group-5,
+  .group-6 {
+    margin-bottom: 10px;
+  }
+
+  /* Mengatur ukuran font */
+  h1, h2, h3, h4, h5 {
+    font-size: 18px;
+  }
+
+  /* Mengatur ukuran font khusus untuk beberapa elemen */
+  .minggu-24-september-2023,
+  ._16-54-23,
+  .toko-indah-kayla {
+    font-size: 16px;
+  }
+
+  /* Mengatur margin dan padding untuk elemen */
+  a, button, input, select, * {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  /* Menghilangkan border pada elemen input */
+  input, select {
+    border: 0;
+  }
+
+  /* Mengatur font untuk elemen .alarm-restock2 */
+  .alarm-restock2, .icon-alarm {
+    font-size: 16px;
+  }
+
+  /* Menyusun elemen .input-penjualanan dan .klik-disini ke dalam baris */
+  .input-penjualanan, .klik-disini {
+    display: inline;
+  }
+
+  /* Menyusun elemen .jumlah-pembeli dan .jumlah-pembeli-hari-ini ke dalam baris */
+  .jumlah-pembeli, .jumlah-pembeli-hari-ini {
+    display: inline;
+  }
+
+  /* Mengatur font pada .rp-370-000-00 */
+  .rp-370-000-00, .rp-370-000-002 {
+    font-size: 20px;
+  }
+
+  /* Mengatur lebar untuk elemen .grafik-keuntungan-dan-pengeluaran-per-bulan */
+  .grafik-keuntungan-dan-pengeluaran-per-bulan {
+    width: 150px;
+  }
+
+  /* Mengatur font pada .grafik-keuntungan-dan-pengeluaran-per-bulan dan .grafik-penjualan-per-bulan */
+  .grafik-keuntungan-dan-pengeluaran-per-bulan, .grafik-penjualan-per-bulan {
+    font-size: 14px;
+  }
+
+  /* Menghilangkan border pada elemen .table */
+  .table {
+    border: none;
+  }
+
+  /* Menyusun elemen di dalam .table secara vertikal */
+  .table > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Mengatur margin dan padding untuk elemen .table */
+  .table > div > div {
+    margin: 2px;
+    padding: 2px;
+  }
+
+}
+.alarm {
+  background: #eeeeee;
+  width: 1600px;
+  height: 900px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-4 {
+  background: #3a3a3a;
+  border-radius: 30px;
+  width: 153px;
+  height: 717px;
+  position: absolute;
+  left: 36px;
+  top: 137px;
+}
+.minggu-24-september-2023 {
+  color: #000000;
+  text-align: left;
+  font: 400 34px "Istok Web", sans-serif;
+  position: absolute;
+  left: 266px;
+  top: 48px;
+}
+._16-54-23 {
+  color: #000000;
+  text-align: left;
+  font: 400 34px "Jost", sans-serif;
+  position: absolute;
+  left: 700px;
+  top: 45px;
+}
+.toko-indah-kayla {
+  color: #000000;
+  text-align: left;
+  font: 400 15px "Istok Web", sans-serif;
+  position: absolute;
+  left: 39px;
+  top: 97px;
+  width: 148px;
+  height: 24px;
+}
+.ikon-toko-2 {
+  width: 44px;
+  height: 60px;
+  position: absolute;
+  left: 85px;
+  top: 36px;
+}
+.menu {
+  position: absolute;
+  inset: 0;
+}
+.dashboard {
+  width: 115px;
+  height: 26px;
+  position: static;
+}
+.dashboard2 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 18px "Istok Web", sans-serif;
+  position: absolute;
+  left: 85px;
+  top: 217px;
+}
+.icon-dashboard {
+  position: absolute;
+  left: 56px;
+  top: 220px;
+  overflow: visible;
+}
+.group-2 {
+  width: 95px;
+  height: 26px;
+  position: static;
+}
+.kategori {
+  color: #ffffff;
+  text-align: left;
+  font: 400 18px "Istok Web", sans-serif;
+  position: absolute;
+  left: 85px;
+  top: 319px;
+}
+.icon-menu {
+  width: 15.86px;
+  height: 17px;
+  position: static;
+}
+.group {
+  position: absolute;
+  left: 58px;
+  top: 323px;
+  overflow: visible;
+}
+.icon-dashboard2 {
+  width: 86px;
+  height: 26px;
+  position: static;
+}
+.group-3 {
+  width: 86px;
+  height: 26px;
+  position: static;
+}
+.produk {
+  color: #ffffff;
+  text-align: left;
+  font: 400 18px "Istok Web", sans-serif;
+  position: absolute;
+  left: 87px;
+  top: 372px;
+}
+.icon-cart {
+  position: absolute;
+  left: 58px;
+  top: 376px;
+  overflow: visible;
+}
+.group-5 {
+  width: 94px;
+  height: 26px;
+  position: static;
+}
+.laporan {
+  color: #ffffff;
+  text-align: left;
+  font: 400 18px "Istok Web", sans-serif;
+  position: absolute;
+  left: 87px;
+  top: 423px;
+}
+.icon-account-login {
+  position: absolute;
+  left: 58px;
+  top: 428px;
+  overflow: visible;
+}
+.group-6 {
+  width: 68px;
+  height: 26px;
+  position: static;
+}
+.kasir {
+  color: #ffffff;
+  text-align: left;
+  font: 400 18px "Istok Web", sans-serif;
+  position: absolute;
+  left: 85px;
+  top: 268px;
+}
+.icon-monitor {
+  position: absolute;
+  left: 57px;
+  top: 272px;
+  overflow: visible;
+}
+.profile {
+  position: absolute;
+  inset: 0;
+}
+.ellipse-1 {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1506px;
+  top: 49px;
+}
+.icon-arrow-down-1 {
+  position: absolute;
+  left: 1556.16px;
+  top: 65.48px;
+  overflow: visible;
+}
+.alarm-restock {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-6 {
+  background: rgba(58, 58, 58, 0.2);
+  border-radius: 30px;
+  width: 183px;
+  height: 178px;
+  position: absolute;
+  left: 433px;
+  top: 167px;
+}
+._10-produk {
+  color: #000000;
+  text-align: left;
+  position: absolute;
+  left: 468px;
+  top: 278px;
+}
+._10-produk-span {
+  color: #000000;
+  font: 400 36px "Jost", sans-serif;
+}
+._10-produk-span2 {
+  color: #000000;
+  font: 400 30px "Jost", sans-serif;
+}
+._10-produk-span3 {
+  color: #000000;
+  font: 400 25px "Jost", sans-serif;
+}
+.alarm-restock2 {
+  color: #000000;
+  text-align: left;
+  font: 400 16px "Istok Web", sans-serif;
+  position: absolute;
+  left: 458px;
+  top: 187px;
+}
+.icon-alarm {
+  width: 56px;
+  height: 56px;
+  position: static;
+}
+.group2 {
+  position: absolute;
+  left: 495px;
+  top: 219px;
+  overflow: visible;
+}
+.input-penjualanan {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-5 {
+  background: rgba(58, 58, 58, 0.2);
+  border-radius: 30px;
+  width: 183px;
+  height: 178px;
+  position: absolute;
+  left: 230px;
+  top: 167px;
+}
+.rectangle-62 {
+  background: rgba(58, 58, 58, 0.2);
+  border-radius: 30px;
+  width: 106px;
+  height: 30px;
+  position: absolute;
+  left: 269px;
+  top: 298px;
+}
+.input-penjualanan2 {
+  color: #000000;
+  text-align: left;
+  font: 400 16px "Istok Web", sans-serif;
+  position: absolute;
+  left: 237px;
+  top: 187px;
+}
+.klik-disini {
+  color: #000000;
+  text-align: left;
+  font: 400 15px "Istok Web", sans-serif;
+  position: absolute;
+  left: 295px;
+  top: 303px;
+}
+.icon-monitor2 {
+  position: absolute;
+  left: 294px;
+  top: 226px;
+  overflow: visible;
+}
+.jumlah-pembeli {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-9 {
+  background: rgba(58, 58, 58, 0.2);
+  border-radius: 30px;
+  width: 280px;
+  height: 178px;
+  position: absolute;
+  left: 230px;
+  top: 394px;
+}
+._10-pelanggan {
+  color: #000000;
+  text-align: left;
+  position: absolute;
+  left: 289px;
+  top: 486px;
+  width: 172px;
+  height: 56px;
+}
+._10-pelanggan-span {
+  color: #000000;
+  font: 400 32px "Jost", sans-serif;
+}
+._10-pelanggan-span2 {
+  color: #000000;
+  font: 400 30px "Jost", sans-serif;
+}
+.jumlah-pembeli-hari-ini {
+  color: #000000;
+  text-align: center;
+  font: 400 20px "Istok Web", sans-serif;
+  position: absolute;
+  left: 245px;
+  top: 411px;
+  width: 237px;
+}
+.pembeli-hutang {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-10 {
+  background: rgba(58, 58, 58, 0.2);
+  border-radius: 30px;
+  width: 280px;
+  height: 178px;
+  position: absolute;
+  left: 230px;
+  top: 598px;
+}
+._3-pelanggan {
+  color: #000000;
+  text-align: left;
+  font: 400 30px "Jost", sans-serif;
+  position: absolute;
+  left: 291px;
+  top: 691px;
+  width: 172px;
+  height: 56px;
+}
+.jumlah-pembeli-hutang-hari-ini {
+  color: #000000;
+  text-align: center;
+  font: 400 20px "Istok Web", sans-serif;
+  position: absolute;
+  left: 233px;
+  top: 615px;
+  width: 273px;
+}
+.penjualan-hari-ini {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-7 {
+  background: rgba(58, 58, 58, 0.2);
+  border-radius: 30px;
+  width: 183px;
+  height: 178px;
+  position: absolute;
+  left: 636px;
+  top: 167px;
+}
+._10-produk2 {
+  color: #000000;
+  text-align: left;
+  position: absolute;
+  left: 671px;
+  top: 281px;
+}
+._10-produk-2-span {
+  color: #000000;
+  font: 400 36px "Jost", sans-serif;
+}
+._10-produk-2-span2 {
+  color: #000000;
+  font: 400 30px "Jost", sans-serif;
+}
+._10-produk-2-span3 {
+  color: #000000;
+  font: 400 25px "Jost", sans-serif;
+}
+.penjualan-hari-ini2 {
+  color: #000000;
+  text-align: left;
+  font: 400 16px "Istok Web", sans-serif;
+  position: absolute;
+  left: 645px;
+  top: 187px;
+}
+.icon-shopping-bag {
+  position: absolute;
+  left: 700px;
+  top: 224px;
+  overflow: visible;
+}
+.penjualan-bulan-ini {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-8 {
+  background: rgba(58, 58, 58, 0.2);
+  border-radius: 30px;
+  width: 183px;
+  height: 178px;
+  position: absolute;
+  left: 839px;
+  top: 167px;
+}
+._264-produk {
+  color: #000000;
+  text-align: left;
+  position: absolute;
+  left: 869px;
+  top: 286px;
+}
+._264-produk-span {
+  color: #000000;
+  font: 400 30px "Jost", sans-serif;
+}
+._264-produk-span2 {
+  color: #000000;
+  font: 400 25px "Jost", sans-serif;
+}
+.penjualan-bulan-ini2 {
+  color: #000000;
+  text-align: left;
+  font: 400 16px "Istok Web", sans-serif;
+  position: absolute;
+  left: 840px;
+  top: 187px;
+}
+.icon-shopping-bag2 {
+  position: absolute;
+  left: 903px;
+  top: 224px;
+  overflow: visible;
+}
+.keuntungan {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-11 {
+  background: rgba(58, 58, 58, 0.2);
+  border-radius: 30px;
+  width: 483px;
+  height: 178px;
+  position: absolute;
+  left: 539px;
+  top: 394px;
+}
+.keuntungan-hari-ini {
+  color: #000000;
+  text-align: left;
+  font: 400 24px "Istok Web", sans-serif;
+  position: absolute;
+  left: 661px;
+  top: 410px;
+  width: 259px;
+}
+.rp-370-000-00 {
+  color: #000000;
+  text-align: left;
+  font: 400 30px "Jost", sans-serif;
+  position: absolute;
+  left: 682px;
+  top: 480px;
+}
+.pengeluaran {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-12 {
+  background: rgba(58, 58, 58, 0.2);
+  border-radius: 30px;
+  width: 483px;
+  height: 178px;
+  position: absolute;
+  left: 539px;
+  top: 598px;
+}
+.pengeluaran-hari-ini {
+  color: #000000;
+  text-align: left;
+  font: 400 24px "Istok Web", sans-serif;
+  position: absolute;
+  left: 661px;
+  top: 615px;
+  width: 260px;
+}
+.rp-370-000-002 {
+  color: #000000;
+  text-align: left;
+  font: 400 30px "Jost", sans-serif;
+  position: absolute;
+  left: 682px;
+  top: 687px;
+}
+.grafik {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-14 {
+  background: rgba(58, 58, 58, 0.2);
+  border-radius: 30px;
+  width: 483px;
+  height: 334px;
+  position: absolute;
+  left: 1063px;
+  top: 495px;
+}
+.group-62 {
+  width: 512px;
+  height: 671px;
+  position: static;
+}
+.rectangle-13 {
+  background: rgba(58, 58, 58, 0.2);
+  border-radius: 30px;
+  width: 483px;
+  height: 334px;
+  position: absolute;
+  left: 1063px;
+  top: 137px;
+}
+.image-3 {
+  width: 442px;
+  height: 250px;
+  position: absolute;
+  left: 1090px;
+  top: 558px;
+}
+.grafik-keuntungan-dan-pengeluaran-per-bulan {
+  color: #000000;
+  text-align: center;
+  font: 400 24px/108.95% "Istok Web", sans-serif;
+  position: absolute;
+  left: 1100px;
+  top: 502px;
+  width: 410px;
+}
+.image-2 {
+  width: 442px;
+  height: 250px;
+  position: absolute;
+  left: 1084px;
+  top: 203px;
+}
+.grafik-penjualan-per-bulan {
+  color: #000000;
+  text-align: left;
+  font: 400 24px "Istok Web", sans-serif;
+  position: absolute;
+  left: 1125px;
+  top: 143px;
+  width: 359px;
+}
+.contoh {
+  color: #000000;
+  text-align: left;
+  font: 700 40px "Istok Web", sans-serif;
+  position: absolute;
+  left: 1210px;
+  top: 290px;
+  width: 359px;
+}
+.contoh2 {
+  color: #000000;
+  text-align: left;
+  font: 700 40px "Istok Web", sans-serif;
+  position: absolute;
+  left: 1216px;
+  top: 645px;
+  width: 359px;
+}
+.line-3 {
+  border-style: solid;
+  border-color: #43d849;
+  border-width: 7px 0 0 0;
+  width: 35px;
+  height: 0px;
+  position: absolute;
+  left: 36px;
+  top: 212px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.group-22 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-1 {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 643px;
+  height: 466px;
+  position: absolute;
+  left: 478px;
+  top: 236px;
+  box-shadow: 9px 12px 11px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-2 {
+  background: #ff0000;
+  border-radius: 20px;
+  width: 643px;
+  height: 74px;
+  position: absolute;
+  left: 478px;
+  top: 236px;
+  box-shadow: 9px 12px 11px 0px rgba(0, 0, 0, 0.25);
+}
+.segera-habis {
+  color: #ffffff;
+  text-align: left;
+  font: 700 32px "Istok Web", sans-serif;
+  position: absolute;
+  left: 662px;
+  top: 253px;
+  width: 272px;
+}
+.table {
+  width: 597px;
+  height: 299px;
+  position: static;
+}
+.line-5 {
+  border-style: solid;
+  border-color: #636363;
+  border-width: 1px 0 0 0;
+  width: 299px;
+  height: 0px;
+  position: absolute;
+  left: 559.07px;
+  top: 351px;
+  transform-origin: 0 0;
+  transform: rotate(90.083deg) scale(1, 1);
+}
+.line-9 {
+  border-style: solid;
+  border-color: #636363;
+  border-width: 1px 0 0 0;
+  width: 299px;
+  height: 0px;
+  position: absolute;
+  left: 787.24px;
+  top: 351px;
+  transform-origin: 0 0;
+  transform: rotate(90.083deg) scale(1, 1);
+}
+.line-11 {
+  border-style: solid;
+  border-color: #636363;
+  border-width: 1px 0 0 0;
+  width: 299px;
+  height: 0px;
+  position: absolute;
+  left: 1011.24px;
+  top: 351px;
+  transform-origin: 0 0;
+  transform: rotate(90.083deg) scale(1, 1);
+}
+.line-10 {
+  border-style: solid;
+  border-color: #636363;
+  border-width: 1px 0 0 0;
+  width: 597px;
+  height: 0px;
+  position: absolute;
+  left: 500px;
+  top: 381.53px;
+}
+.rectangle-112 {
+  background: rgba(58, 58, 58, 0.2);
+  width: 597px;
+  height: 31px;
+  position: absolute;
+  left: 500px;
+  top: 351px;
+}
+.s-n {
+  color: #2b2b2b;
+  text-align: left;
+  font: 400 14px "Istok Web", sans-serif;
+  position: absolute;
+  left: 516px;
+  top: 356px;
+  width: 31px;
+  height: 18px;
+}
+.stok {
+  color: #2b2b2b;
+  text-align: left;
+  font: 400 14px "Istok Web", sans-serif;
+  position: absolute;
+  left: 1038px;
+  top: 356px;
+  width: 43px;
+  height: 18px;
+}
+.nama-produk-barang {
+  color: #2b2b2b;
+  text-align: left;
+  font: 400 14px "Istok Web", sans-serif;
+  position: absolute;
+  left: 588px;
+  top: 357px;
+  width: 169px;
+  height: 18px;
+}
+.nama-kategori-barang {
+  color: #2b2b2b;
+  text-align: left;
+  font: 400 13px "Istok Web", sans-serif;
+  position: absolute;
+  left: 812px;
+  top: 359px;
+  width: 176px;
+  height: 19px;
+}
